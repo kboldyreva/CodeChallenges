@@ -14,4 +14,12 @@ public class ReturnEvenNumbers {
         }
 
     }
+
+    @Test
+    public void printHelloAtEvenNumbers() {
+        for (int i = 1; i <= 10; i++) {
+            if (i%2==0) System.out.println("hello world");
+        }
+    }
+
 }
